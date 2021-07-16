@@ -16,8 +16,8 @@ namespace UnitTestProject1
 		[TestMethod]
 		public void shouldaddtwonumbers()
 		{
-			int res = _calc.Add(5, 3);
-			Assert.AreEqual(res, 8);
+			int res = _calc.Add(5, 4);
+			Assert.AreEqual(res, 9);
 		}
 		[TestMethod]
 		public void shouldsubtwonumbers()
