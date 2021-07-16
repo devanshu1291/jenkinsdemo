@@ -1,5 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WebApplication1;
 
 namespace UnitTestProject1
@@ -9,7 +8,7 @@ namespace UnitTestProject1
 	{
 		Calculator _calc;
 
-		public  UnitTest1()
+		public UnitTest1()
 		{
 			_calc = new Calculator();
 		}
